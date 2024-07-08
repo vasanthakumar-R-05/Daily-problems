@@ -7,12 +7,8 @@ class Solution {
             li.add(i+1);
             
         }
-        while(true)
+        while(li.size()>1)
         {
-            if(li.size()==1)
-            {
-                break;
-            }
             for(int j=0;j<li.size();j++)
             {
                 if(li.size()==1)
